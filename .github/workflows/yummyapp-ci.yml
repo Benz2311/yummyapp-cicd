@@ -2,9 +2,9 @@ name: YummyApp Mobile Backend CI Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, test/lab07-ci-failure ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, test/lab07-ci-failure ]
 
 jobs:
   mobile-test-job:
